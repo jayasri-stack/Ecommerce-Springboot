@@ -1,0 +1,12 @@
+# Production Configuration for E-commerce Spring Boot Application
+
+spring:
+  redis:
+    host: your-redis-host
+    port: 6379
+    password: your-redis-password
+  datasource:
+    url: jdbc:mysql://your-database-host:3306/your-database-name
+    username: your-database-username
+    password: your-database-password
+    driver-class-name: com.mysql.cj.jdbc.Driver
