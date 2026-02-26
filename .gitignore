@@ -1,0 +1,24 @@
+# Maven specific files
+*.log
+*.war
+*.jar
+*.class
+.settings/
+.classpath
+.project
+
+# Eclipse specific files
+.metadata/
+bin/
+target/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# VS Code specific files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
